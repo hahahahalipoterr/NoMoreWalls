@@ -1,14 +1,31 @@
 proxies:
-- name: KR_speednode_0003
+- name: KR_speednode_0021
   port: 1090
   server: 121.169.46.116
   tls: false
   type: socks5
   udp: true
-  username: T2clM0QlM0Q6
+  username: Og%3D%3D
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: KR_speednode_0019
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
+    short-id: '!!str c76ba2c2fb172e8b'
+  server: 154.193.55.183
+  servername: storage.yandex.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: KR_speednode_0004
+  name: KR_speednode_0020
   network: tcp
   port: 443
   reality-opts:
