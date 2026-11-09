@@ -35,16 +35,6 @@ proxies:
   sni: 079c035a-t5bb40-t6tn6w-jjv2.hk1.hyhuawei.com
   tls: false
   type: hysteria2
-- name: 'Channel id: @ConfigV2RayNG 🇭🇰'
-  obfs: salamander
-  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-  port: 5010
-  server: 152.32.254.68
-  skip-cert-verify: false
-  sni: nas.aizhzo.com
-  tls: false
-  type: hysteria2
 - alpn:
   - http/1.1
   client-fingerprint: firefox
